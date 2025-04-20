@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/news_nav_graph"
+    app:startDestination="@id/headlines">
+
+    <fragment
+        android:id="@+id/headlines"
+        android:name="com.example.newsify.ui.fragments.HeadlineFragment"
+        android:label="Headlines">
+        <action
+            android:id="@+id/action_headlines_to_articleFragment"
+            app:destination="@id/articleFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/fFavourite"
+        android:name="com.example.newsify.ui.fragments.FavouriteFragment"
+        android:label="Favourite">
+        <action
+            android:id="@+id/action_fFavourite_to_articleFragment"
+            app:destination="@id/articleFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/search"
+        android:name="com.example.newsify.ui.fragments.SearchFragment"
+        android:label="Search">
+        <action
+            android:id="@+id/action_search_to_articleFragment"
+            app:destination="@id/articleFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/articleFragment"
+        android:name="com.example.newsify.ui.fragments.ArticlesFragment"
+        android:label="Article">
+        <argument
+            android:name="article"
+            app:argType="com.example.newsify.models.Article" />
+    </fragment>
+</navigation>
