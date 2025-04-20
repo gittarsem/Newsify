@@ -45,4 +45,4 @@ https://youtube.com/shorts/od6LKNpjsXM
 1. Clone this repository:
 
 ```bash
-git clone https://github.com/your-username/news-app.git
+git clone https://github.com/your-username/newsify.git
