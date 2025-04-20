@@ -19,14 +19,14 @@ An Android News App built with Kotlin following MVVM architecture. The app fetch
 
 ## 📸 Screenshots
 
-![4](https://github.com/user-attachments/assets/4189d78e-7b11-4118-a3d9-acd8a0fa6c18)
-![3](https://github.com/user-attachments/assets/62deda5c-3d22-44b9-bda2-281cfd8881b2)
-![2](https://github.com/user-attachments/assets/584ffa91-5991-4057-b768-55d20d442093)
 ![1](https://github.com/user-attachments/assets/898623e9-a279-498b-a4db-c121a5d8395b)
-
-
+![2](https://github.com/user-attachments/assets/584ffa91-5991-4057-b768-55d20d442093)
+![3](https://github.com/user-attachments/assets/62deda5c-3d22-44b9-bda2-281cfd8881b2)
+![4](https://github.com/user-attachments/assets/4189d78e-7b11-4118-a3d9-acd8a0fa6c18)
 ---
 
+## Demo
+https://youtube.com/shorts/od6LKNpjsXM
 ## 🛠️ Tech Stack
 
 - **Language**: Kotlin
